@@ -1,0 +1,53 @@
+.container {
+    text-align: center;
+}
+body{
+    background-image: url("img.png");
+}
+h1 {
+    color: aqua;
+    font-size: 3.2rem;
+}
+
+#game-board {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 65px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #aaa;
+}
+
+#alertContainer {
+    margin-top: 20px;
+    font-size: 1.8em;
+    color: lime;
+    padding-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: limegreen;
+}
